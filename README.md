@@ -11,8 +11,8 @@ Template for precisly stated articles in development and planning
 Template for short expository papers
 
 ### Explore
-Template for explorational fields in mathematics
+Template for explorational projects perhaps without concrete papers in mind
 
 ## Tools
 
-* Chrome with mathjax [https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related) 
+* Github with mathjax [https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related) 
