@@ -16,3 +16,9 @@ Template for explorational projects perhaps without concrete papers in mind
 ## Tools
 
 * Github with mathjax [https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima/related) 
+
+* Download all repos: 
+```
+curl -s https://api.github.com/orgs/NordicMath/repos?per_page=200 | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["html_url"]} ]}'
+```
+
