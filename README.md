@@ -19,6 +19,9 @@ Template for explorational projects perhaps without concrete papers in mind
 
 * Download all repos: 
 ```
-curl -s https://api.github.com/orgs/ProjectSohpus/repos?per_page=200 | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["html_url"]} ]}'
+curl -s https://api.github.com/orgs/ProjectSophus/repos?per_page=200 | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["html_url"]} ]}'
 ```
-
+If that doesn't work, try:
+```
+curl -s https://api.github.com/orgs/ProjectSophus/repos?per_page=200 | ruby -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["html_url"]} ]}'
+```
