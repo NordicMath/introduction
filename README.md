@@ -1,4 +1,4 @@
-# Introduction to NordicMath
+# Introduction to Sophus
 
 This research group is primarily invite-based. If you really want to contribute, feel free to email torsteinv64@gmail.com.
 
@@ -19,6 +19,6 @@ Template for explorational projects perhaps without concrete papers in mind
 
 * Download all repos: 
 ```
-curl -s https://api.github.com/orgs/NordicMath/repos?per_page=200 | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["html_url"]} ]}'
+curl -s https://api.github.com/orgs/ProjectSohpus/repos?per_page=200 | ruby -rubygems -e 'require "json"; JSON.load(STDIN.read).each { |repo| %x[git clone #{repo["html_url"]} ]}'
 ```
 
